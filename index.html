@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CO2LOGIX papers and code</title>
+<meta name="description" content="Papers, preprints and code for CO2LOGIX, a first-order model of pressure-constrained CO2 storage growth. Iain de Jonge-Anderson, University of Strathclyde.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f6f6;
+    --ink: #14201f;
+    --muted: #55615f;
+    --accent: #0b6e69;
+    --line: #dde3e2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101716;
+      --surface: #1a2423;
+      --ink: #e8eeed;
+      --muted: #9daaa8;
+      --accent: #5cc6bd;
+      --line: #2a3735;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 32px 16px 48px; }
+  .eyebrow { margin: 0; color: var(--accent); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+  h1 { margin: 6px 0 10px; font-size: 1.6rem; line-height: 1.25; }
+  .talk { margin: 0 0 4px; color: var(--muted); }
+  .who { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  h2 { margin: 36px 0 12px; font-size: 1.05rem; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .card { display: block; padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: inherit; text-decoration: none; }
+  .card:hover, .card:focus-visible { border-color: var(--accent); }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .tag { display: inline-block; margin-bottom: 6px; color: var(--accent); font-size: 0.8rem; font-weight: 600; }
+  .title { display: block; font-weight: 600; line-height: 1.35; }
+  .meta { display: block; margin-top: 6px; color: var(--muted); font-size: 0.9rem; }
+  .go { display: block; margin-top: 10px; color: var(--accent); font-size: 0.9rem; font-weight: 600; }
+  .extra { margin: 8px 0 0 16px; font-size: 0.9rem; }
+  .extra a { color: var(--accent); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">GHGT talk</p>
+  <h1>CO2LOGIX papers and code</h1>
+  <p class="talk">Assessing the compatibility of CCS deployment with subsurface pressure response in Australia using a simplified injection modelling tool</p>
+  <p class="who">Iain de Jonge-Anderson, University of Strathclyde</p>
+
+  <h2>Papers</h2>
+  <ul>
+    <li>
+      <a class="card" href="https://doi.org/10.1016/j.ijggc.2026.104608">
+        <span class="tag">CO2LOGIX v1.0 · UK · Open access</span>
+        <span class="title">CO2LOGIX: A first-order model of pressure-constrained CO<sub>2</sub> geological storage growth at the basin scale</span>
+        <span class="meta">de Jonge-Anderson, Johnson, Alcalde &amp; Roberts. International Journal of Greenhouse Gas Control 151, 104608 (2026)</span>
+        <span class="go">Read the paper →</span>
+      </a>
+    </li>
+    <li>
+      <a class="card" href="https://doi.org/10.31223/X5ZR46">
+        <span class="tag">CO2LOGIX v2.0 · Global · Preprint</span>
+        <span class="title">Global limits on CO<sub>2</sub> geological storage deployment using a coupled industry growth – pressure constrained model</span>
+        <span class="meta">de Jonge-Anderson, Johnson, Alcalde &amp; Roberts. EarthArXiv (2026), not yet peer reviewed</span>
+        <span class="go">Read the preprint →</span>
+      </a>
+    </li>
+  </ul>
+
+  <h2>Code</h2>
+  <ul>
+    <li>
+      <a class="card" href="https://doi.org/10.5281/zenodo.17484441">
+        <span class="tag">CO2LOGIX v1.0 · UK case study</span>
+        <span class="title">CO2LOGIX: UK case study release</span>
+        <span class="meta">Zenodo archive, doi:10.5281/zenodo.17484441</span>
+        <span class="go">Get the code →</span>
+      </a>
+      <p class="extra"><a href="https://github.com/iaindejongeanderson/CO2LOGIX">Source on GitHub</a></p>
+    </li>
+    <li>
+      <a class="card" href="https://doi.org/10.5281/zenodo.22047158">
+        <span class="tag">CO2LOGIX v2.0 · Global</span>
+        <span class="title">CO2LOGIX-2.0: Initial release</span>
+        <span class="meta">Zenodo archive, doi:10.5281/zenodo.22047158</span>
+        <span class="go">Get the code →</span>
+      </a>
+      <p class="extra"><a href="https://github.com/iaindejongeanderson/CO2LOGIX-2.0">Source on GitHub</a></p>
+    </li>
+  </ul>
+
+  <footer>With Gareth Johnson (Drax), Juan Alcalde (GEO3BCN-CSIC), Eric Tenthorey (Geoscience Australia) and Jennifer J. Roberts (University of Strathclyde).</footer>
+</main>
+</body>
+</html>
